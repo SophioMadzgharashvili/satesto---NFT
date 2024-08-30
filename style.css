@@ -30,24 +30,6 @@
 
 
 
-.hoverImage1 {
-    background-image: url("Image\ Placeholder\ Art.png");
-    animation-name: example1;
-    animation-duration: 4s;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.1;
-}
-  
-
-@keyframes example1 {
-    0%   {opacity: 0.1;}
-    25%  {opacity: 0.4;}
-    50%  {opacity: 0.7;}
-    70%  {opacity: 1;}
-    100% {opacity: 0.11;}
-}
-
 
 .background1{
     background-repeat: no-repeat;
@@ -66,4 +48,81 @@
     font-family: "workSans";
     font-weight: 400;
     color: rgba(43, 43, 43, 1);
+}
+
+
+
+.collectibles {
+    background-image: url("Image\ Placeholder\ Collectibles.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+.art {
+    background-image: url("Image\ Placeholder\ Art.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+
+.music {
+    background-image: url("Image\ Placeholder\ Music.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+.photography {
+    background-image: url("Image\ Placeholder\ Photography.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+.video {
+    background-image: url("Image\ Placeholder\ Video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+
+.utility {
+    background-image: url("Image\ Placeholder\ Utility.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+.sport {
+    background-image: url("Image\ Placeholder\ Sport.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
+}
+
+
+
+
+.virtualWorlds {
+    background-image: url("Image\ Placeholder\ Virtual\ Worlds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px)  saturate(113%);
 }
